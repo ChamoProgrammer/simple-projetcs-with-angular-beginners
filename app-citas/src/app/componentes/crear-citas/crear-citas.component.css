@@ -1,0 +1,28 @@
+.div-1  {
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    margin: 0 40px;
+}
+
+label   {
+    font-weight: bold;
+    color: #fbff00;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.titulo12  {
+    color: #fbff00;
+    text-transform: capitalize;
+    font-size: 35px;
+}
+
+
+.input-12  {
+    color: #ff8e8e;
+    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+}
+
+.input-12::placeholder  {
+    color: #ff8e8e;
+}

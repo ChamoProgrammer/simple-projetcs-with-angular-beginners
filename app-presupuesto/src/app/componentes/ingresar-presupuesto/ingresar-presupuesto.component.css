@@ -1,0 +1,32 @@
+.card1  {
+    background: #d9a7c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fffcdc, #d9a7c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fffcdc, #d9a7c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+    border-radius: 5px;        
+}
+
+input   {
+    text-align: center;
+}
+
+button  {
+    width: 100%;
+}
+
+button:hover  {
+    background-color: #4f9400;
+}
+
+.asa  {
+    font-family: 'Akaya Telivigala', cursive;
+    font-weight: bold;
+    font-size: 39px;
+    text-transform: capitalize;
+}
+
+.text-error   {
+    font-size: 20px;
+    font-family: 'Rum Raisin', sans-serif;
+    letter-spacing: 1px;
+    color: #000000;
+}

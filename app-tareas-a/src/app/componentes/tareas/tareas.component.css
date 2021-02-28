@@ -1,0 +1,11 @@
+.cursor {
+    cursor: grab;
+}
+
+.b  {
+    cursor: text;
+}
+.fa-dumpster-fire   {
+    color: red;
+    font-size: 22px;
+}

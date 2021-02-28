@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+body  {
+    background-image: url(./assets/fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+.titulo1  {
+    color: black;
+    text-transform: capitalize;
+}

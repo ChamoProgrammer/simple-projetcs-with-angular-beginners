@@ -1,0 +1,22 @@
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-lg-8 offset-lg-2">
+            <div class="input-group flex-nowrap">
+                <span class="input-group-text" id="addon-wrapping">🤙✍👉</span>
+                <input [(ngModel)]='nombreTarea' (keyup.enter)='agrearTarea()'   type="text" class="form-control text-center" placeholder="ingrese alguna tarea que se le ocurra" aria-label="Username" aria-describedby="addon-wrapping">
+              </div>
+              <div class="card mt-3" *ngIf='listaTareas.length === 0; let i = index'>
+                  <h5 class="pt-2">no hay tareas que mostrar</h5>
+              </div>
+              <ul class="list-group">
+                  <li class="list-group-item d-flex justify-content-between " *ngFor='let tarea of listaTareas'>
+                      <span class="cursor" (click)='actualizarTarea(i, tarea)'>
+                        <i [ngClass]="tarea.estado ? 'fas fa-check-circle' : 'fas fa-circle' "></i>  
+                    </span>
+                     <b class="b"> {{ tarea.nombre }}</b>
+                      <span class="cursor" (click)='eliminarTarea(i)'><i class="fas fa-dumpster-fire"></i></span>
+                  </li>
+              </ul>
+        </div>
+    </div>
+</div>

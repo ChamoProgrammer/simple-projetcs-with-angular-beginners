@@ -1,0 +1,44 @@
+.fondoItem  {
+    background-color: #040057db;
+    height: 430px;
+    /* width: 45px; */
+    border-radius: 40px;
+    color: #dad8d8;
+}
+
+h2  {
+    font-family: 'Kalam', cursive;
+    color: #ffb6b6;
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.btn-color   {
+    background-color: #0d0082;
+    border-color: #070037;
+    color: yellow;
+    font-size: 30px;
+    text-transform: uppercase;
+    border-radius: 40px;
+    width: 100%;
+}
+
+.resultado  {
+    font-family: 'Lobster Two', cursive; 
+    color: green;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.numero  {
+    font-size: 98px;
+    font-weight: bold;
+    color: #ffd900;
+}
+
+.interpretacion   {
+    margin: 10px;
+    font-size: 20px;
+}

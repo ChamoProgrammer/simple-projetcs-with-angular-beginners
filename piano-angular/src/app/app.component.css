@@ -1,0 +1,15 @@
+.list-group-item  {
+    cursor: grab;
+    height: 55px;
+}
+
+.row  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.list-group-item:active  {
+    opacity: 0.9;
+}

@@ -1,0 +1,17 @@
+<h1 class="text-center">app dados</h1>
+
+<div class="jumbotron text-center">
+  <button class="btn btn-primary btn-ls" (click)="tirarDados()">tirar dados</button>
+  <br><br><br><br>
+
+  <img class="img" [src]="dadoIzquierda" alt="">
+  <img class="img" [src]="dadoDerecha" alt="">
+
+  <br><br>
+  <h1 *ngIf="numero1 === numero2"><span class="badge badge-success">es un empate</span></h1>
+  <h1 *ngIf="numero1 < numero2"><span class="badge badge-success">ganaste numero 2</span></h1>
+  <h1 *ngIf="numero1 > numero2"><span class="badge badge-success">perdiste numero 2</span></h1>
+
+  <h1 *ngIf="numero2 < numero1"><span class="badge badge-success">ganaste numero 1</span></h1>
+  <h1 *ngIf="numero2 > numero1"><span class="badge badge-success">perdiste numero 1</span></h1>
+</div>

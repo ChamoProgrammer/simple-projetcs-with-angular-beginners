@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Kalam&family=Lobster+Two:ital@1&display=swap');
+
+/*
+
+*/
+
+h2  {
+    font-family: 'Akaya Telivigala', cursive;
+    color: #ffb6b6;
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.row  {
+    margin-top: 20px;
+}
+
+.fondoItem  {
+    background-color: #040057db;
+    height: 130px;
+    /* width: 45px; */
+    border-radius: 40px;
+    color: #dad8d8;
+}
+
+.btn-color   {
+    background-color: #0d0082;
+    border-color: #070037;
+    color: yellow;
+    font-size: 30px;
+    text-transform: uppercase;
+    border-radius: 40px;
+    width: 100%;
+}
+
+.btn-color:hover   {
+    background-color: #0007d3;
+    border-color: #2b28e9;
+}
+
+.sexo  {
+    font-size: 45px;
+}
+
+.numero   {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.cm   {
+    font-size: 25px;
+    font-weight: normal;
+}
+
+
+/* range */
+.slider {
+    -webkit-appearance: none;
+    width: 80%;
+    height: 15px;
+    background: #00d000;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    border-radius: 20px;
+  }
+  
+  .slider:hover {
+    opacity: 1;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 19px;
+    height: 20px;
+    background: #ae0000;
+    cursor: pointer;
+    border-radius: 50px;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #e17400;
+    cursor: pointer;
+  }
+
+  .sumaResta   {
+      cursor: grabbing;
+      color: #ffffff;
+      background-color: #ed5050;
+      padding: 8px;
+      border-radius: 15px;
+      margin-left: 15px;
+  }
+
+.sexoDesactivo   {
+    background-color: #1639ff ;
+}

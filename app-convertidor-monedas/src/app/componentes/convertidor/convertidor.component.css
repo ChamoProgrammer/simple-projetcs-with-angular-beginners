@@ -1,0 +1,11 @@
+.badge  {
+    margin: 35px;
+    color: black;
+    padding: 15px;
+    font-size: 20px;
+}
+
+label   {
+    color: #35ff03;
+    margin: 19px  0 5px 0;
+}
